@@ -1,0 +1,99 @@
+/* GLOBAL */
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  margin-top: 10px;
+}
+h2{
+  font-size: 2.2em;
+  line-height: 1.3em;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+}
+.color-text-white {
+  color: white;
+}
+.fab {
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* NAV BAR */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand{
+  padding-top: 12px;
+}
+.navbar-brand h1{
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 0;
+  font-size: 26px;
+  transition: color .1s ease-in;
+}
+.navbar-brand h1:hover {
+  color: #c72c72;
+}
+/* END OF NAV BAR */
+/* HOMEPAGE JUMBOTRON */
+.jumbotron {
+  margin-bottom: 0;
+}
+.home-jumbo {
+  background: rgb(36,151,163);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+/* END OF JUMBOTRON */
+/* FOOTER */
+.footer-section {
+  background: #030116;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #ffffff;
+}
+.footer-social {
+  text-align: center;
+}
+.footer-social a {
+  color: #c72c72;
+}
+.footer-social a:hover{
+  color: #ffffff
+}
+/* END OF FOOTER */
+
+/* NEED */
+/* SM */
+@media (min-width: 768px) {
+  .home-jumbo{
+    min-height: (100vh - 50px);
+  }
+
+}
+/* MD */
+@media (min-width: 992px) {
+  .home-jumbo{
+    text-align: left;
+  }
+  .home-jumbo-left {
+    padding-top: 100px;
+  }
+  .footer-social{
+    text-align: left;
+  }
+}
+/* LG */
+@media (mid-width: 1200px) {
+
+}
+/* END OF NEED */
